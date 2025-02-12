@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <h2 class="text-center">Welcome to the Todo App</h2>
+  <p class="text-center text-muted">Manage your tasks efficiently</p>
+
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="card text-center p-3 shadow-sm">
+        <h5>Completed Tasks</h5>
+        <p class="fs-3 text-success">{{ completedTasks }}</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card text-center p-3 shadow-sm">
+        <h5>Pending Tasks</h5>
+        <p class="fs-3 text-warning">{{ pendingTasks }}</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card text-center p-3 shadow-sm">
+        <h5>Total Tasks</h5>
+        <p class="fs-3 text-primary">{{ totalTasks }}</p>
+      </div>
+    </div>
+  </div>
+</div>
